@@ -1,0 +1,60 @@
+body {
+    margin: 0%;
+    font-weight: normal;
+    font-size: 15px;
+    color: #262626;
+    margin-bottom: 50px;
+}
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+a {
+    color: black!important;
+    text-decoration: none;
+    transition: 0.12s;
+}
+
+a:hover {
+    color: #0064c2!important;
+    /* text-decoration: underline; */
+}
+
+/* .highlight-type1 {
+    color: #0779e4;
+    font-weight: 700;
+} */
+#gnb {
+    height: 450px;
+    position: relative;
+}
+#container {
+    max-width: 1200px;
+    min-height: 500px;
+    margin: 0 auto;
+    padding: 0px 10px;
+/*    margin: 0px 220px;*/
+/*    border: 1px solid #b9b9b9;*/
+}
+#project {
+    /* max-width: 1200px;
+    margin: 0 auto; */
+    margin-top: 180px;
+    padding: 0px 10px;
+}
+
+/* 태블릿&13인치 화면 ~ 모바일까지 반응형 규격 */
+@media (min-width: 480px) and (max-width: 1024px) {
+    #container {
+        max-width: 700px;
+    }
+}

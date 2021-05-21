@@ -1,0 +1,38 @@
+@media (max-width: 1024px) 
+{
+    
+    #gnb .lang {
+        right: 15px;
+        top: 20px;
+    }
+    
+    #container .section {
+        margin-top: 100px;
+    }
+    
+    #container .section .list .item {
+        width: 50%;
+    }
+    
+    /* Project */
+    #project {
+        padding: 0px 0px;
+    }
+
+    #project .flex .item-grid {
+        width: 50%;
+        height: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

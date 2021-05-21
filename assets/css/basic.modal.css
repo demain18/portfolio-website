@@ -1,0 +1,26 @@
+.v-dialog img {
+  width: 100%!important;
+  object-fit: cover!important;
+  margin: 10px 0px;
+  box-shadow: 3px 8px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+.v-dialog .content {
+  padding-top: 30px!important;
+}
+
+.v-dialog .content h2 {
+  margin-bottom: 5px;
+}
+
+.v-dialog .content p {
+  margin-bottom: 0px;
+}
+
+.v-dialog .content .chip-wrap {
+  margin-top: 10px;
+}
+
+.v-dialog .content .chip-wrap .v-chip {
+  margin-right: 5px;
+}

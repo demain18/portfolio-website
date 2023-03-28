@@ -1,12 +1,14 @@
 .v-dialog img {
-  width: 100%!important;
-  object-fit: cover!important;
+  width: 100% !important;
+  object-fit: cover !important;
   margin: 10px 0px;
-  box-shadow: 3px 8px 10px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 7px;
 }
 
 .v-dialog .content {
-  padding-top: 30px!important;
+  padding-top: 30px !important;
 }
 
 .v-dialog .content h2 {
